@@ -1,5 +1,5 @@
 function FindProxyForURL(url, host) {
-	if (shExpMatch(url, "*.game.mbga.jp/*")
+	if (shExpMatch(url, "*.granbluefantasy.jp/*")
 		&& !shExpMatch(url, "*gbf.game.mbga.jp/(authentication|ob/r)*")) {
 		return "PROXY localhost:8080";
 	}
